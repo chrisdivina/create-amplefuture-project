@@ -1,1 +1,1 @@
-"# create-amplefuture-project" 
+# create-amplefuture-project
