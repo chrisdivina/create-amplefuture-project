@@ -1,0 +1,32 @@
+{
+  "name": "@amplefuture/create-amplefuture-project",
+  "version": "1.0.0",
+  "description": "Create amplefuture projects a la Facebook",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdivina/create-amplefuture-project.git"
+  },
+  "bin": {
+    "create-amplefuture-project": "./bin/create-project.js"
+  },
+  "author": "Christophe Divina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisdivina/create-amplefuture-project/issues"
+  },
+  "homepage": "https://github.com/chrisdivina/create-amplefuture-project#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "figlet": "^1.2.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^3.2.1",
+    "path": "^0.12.7",
+    "pretty-data": "^0.40.0",
+    "react-dev-utils": "^3.1.1",
+    "scp2": "^0.5.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {}
+}
