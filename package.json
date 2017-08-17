@@ -1,9 +1,7 @@
 {
-  "name": "@amplefuture/create-amplefuture-project",
-  "version": "1.0.0",
+  "name": "create-amplefuture-project",
+  "version": "0.0.2",
   "description": "Create amplefuture projects a la Facebook",
-  "main": "index.js",
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chrisdivina/create-amplefuture-project.git"
@@ -27,6 +25,5 @@
     "react-dev-utils": "^3.1.1",
     "scp2": "^0.5.0",
     "util": "^0.10.3"
-  },
-  "devDependencies": {}
+  }
 }

@@ -128,7 +128,9 @@ function updateContent(err = null, data = "") {
   let { scripts = {} } = config;
 
   // We update the start script
-  scripts.start = "webpack-amplefuture-scripts"
+  scripts.start = "webpack-amplefuture-scripts";
+
+  delete scripts.test;
 
   // update the scripts in the config
   config.scripts = scripts;
